@@ -1,0 +1,1416 @@
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.sw0}} 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1280+540
+pf:read PF:1 v(vin)
+# WF:1:1
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:1
+pf:read PF:1 v(vout)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+wm geometry .sigmgr 467x236+418+197
+wm geometry .sigmgr 467x236+433+197
+wm geometry .sigmgr 467x236+461+197
+wm geometry .sigmgr 467x236+495+197
+wm geometry .sigmgr 467x236+530+197
+wm geometry .sigmgr 467x236+569+191
+wm geometry .sigmgr 467x236+604+186
+wm geometry .sigmgr 467x236+623+186
+wm geometry .sigmgr 467x236+629+184
+wm geometry .sigmgr 467x236+631+183
+wm geometry .sigmgr 467x236+632+184
+wm geometry .sigmgr 467x236+633+196
+wm geometry .sigmgr 467x236+636+226
+wm geometry .sigmgr 467x236+638+244
+wm geometry .sigmgr 467x236+638+245
+wm geometry .sigmgr 467x236+639+246
+wm geometry .sigmgr 467x236+647+246
+wm geometry .sigmgr 467x236+671+237
+wm geometry .sigmgr 467x236+691+229
+wm geometry .sigmgr 467x236+705+219
+wm geometry .sigmgr 467x236+707+217
+wm geometry .sigmgr 467x236+706+218
+wm geometry .sigmgr 467x236+704+219
+wm geometry .sigmgr 467x236+703+219
+wm geometry .sigmgr 467x236+702+220
+wm geometry .sigmgr 467x236+701+221
+wm geometry .sigmgr 467x236+700+223
+ScopeSigMgr:SetDefaultXAxis .sigmgr._PF:1 PF:1
+pf:read PF:1 v(vin)
+# WF:1:1
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:1
+ScopeSigMgr:SetDefaultXAxis .sigmgr._PF:1 PF:1
+pf:read PF:1 v(vin)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:1 v(vout)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+Mdi:Move 142 156
+Mdi:ArrangeIcons
+wm geometry . 900x785+9+95
+Mdi:ArrangeIcons
+wm geometry . 900x785+55+152
+Mdi:ArrangeIcons
+wm geometry . 900x785+92+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+127+242
+Mdi:ArrangeIcons
+wm geometry . 900x785+153+286
+Mdi:ArrangeIcons
+wm geometry . 900x785+202+359
+Mdi:ArrangeIcons
+wm geometry . 900x785+225+403
+Mdi:ArrangeIcons
+wm geometry . 900x785+235+424
+Mdi:ArrangeIcons
+wm geometry . 900x785+242+433
+Mdi:ArrangeIcons
+wm geometry . 900x785+255+444
+Mdi:ArrangeIcons
+wm geometry . 900x785+278+461
+Mdi:ArrangeIcons
+wm geometry . 900x785+337+502
+Mdi:ArrangeIcons
+wm geometry . 900x785+412+532
+Mdi:ArrangeIcons
+wm geometry . 900x785+448+566
+Mdi:ArrangeIcons
+wm geometry . 900x785+449+566
+Mdi:ArrangeIcons
+wm geometry . 900x785+462+553
+Mdi:ArrangeIcons
+wm geometry . 900x785+475+527
+Mdi:ArrangeIcons
+wm geometry . 900x785+507+450
+Mdi:ArrangeIcons
+wm geometry . 900x785+524+415
+Mdi:ArrangeIcons
+wm geometry . 900x785+537+385
+Mdi:ArrangeIcons
+wm geometry . 900x785+545+367
+Mdi:ArrangeIcons
+wm geometry . 900x785+547+361
+Mdi:ArrangeIcons
+wm geometry . 900x785+549+357
+Mdi:ArrangeIcons
+wm geometry . 900x785+550+354
+Mdi:ArrangeIcons
+wm geometry . 900x785+553+351
+Mdi:ArrangeIcons
+wm geometry . 900x785+555+346
+Mdi:ArrangeIcons
+wm geometry . 900x785+559+341
+Mdi:ArrangeIcons
+wm geometry . 900x785+563+333
+Mdi:ArrangeIcons
+wm geometry . 900x785+568+325
+Mdi:ArrangeIcons
+wm geometry . 900x785+570+319
+Mdi:ArrangeIcons
+wm geometry . 900x785+573+316
+Mdi:ArrangeIcons
+wm geometry . 900x785+574+313
+Mdi:ArrangeIcons
+wm geometry . 900x785+575+312
+Mdi:ArrangeIcons
+wm geometry . 900x785+577+310
+Mdi:ArrangeIcons
+wm geometry . 900x785+578+309
+Mdi:ArrangeIcons
+wm geometry . 900x785+578+308
+Mdi:ArrangeIcons
+wm geometry . 900x785+577+307
+Mdi:ArrangeIcons
+wm geometry . 900x785+573+301
+Mdi:ArrangeIcons
+wm geometry . 900x785+568+287
+Mdi:ArrangeIcons
+wm geometry . 900x785+560+272
+Mdi:ArrangeIcons
+wm geometry . 900x785+551+256
+Mdi:ArrangeIcons
+wm geometry . 900x785+543+233
+Mdi:ArrangeIcons
+wm geometry . 900x785+541+225
+Mdi:ArrangeIcons
+wm geometry . 900x785+539+222
+Mdi:ArrangeIcons
+wm geometry . 900x785+537+219
+Mdi:ArrangeIcons
+wm geometry . 900x785+534+215
+Mdi:ArrangeIcons
+wm geometry . 900x785+532+213
+Mdi:ArrangeIcons
+wm geometry . 900x785+529+209
+Mdi:ArrangeIcons
+wm geometry . 900x785+525+204
+Mdi:ArrangeIcons
+wm geometry . 900x785+519+201
+Mdi:ArrangeIcons
+wm geometry . 900x785+513+197
+Mdi:ArrangeIcons
+wm geometry . 900x785+507+192
+Mdi:ArrangeIcons
+wm geometry . 900x785+501+189
+Mdi:ArrangeIcons
+wm geometry . 900x785+494+187
+Mdi:ArrangeIcons
+wm geometry . 900x785+490+185
+Mdi:ArrangeIcons
+wm geometry . 900x785+488+184
+Mdi:ArrangeIcons
+wm geometry . 900x785+485+183
+Mdi:ArrangeIcons
+wm geometry . 900x785+483+183
+Mdi:ArrangeIcons
+wm geometry . 900x785+480+182
+Mdi:ArrangeIcons
+wm geometry . 900x785+479+181
+wm geometry .sigmgr 467x236+700+226
+wm geometry .sigmgr 467x236+701+227
+wm geometry .sigmgr 467x236+708+227
+wm geometry .sigmgr 467x236+749+253
+wm geometry .sigmgr 467x236+803+285
+wm geometry .sigmgr 467x236+970+361
+wm geometry .sigmgr 467x236+1072+407
+wm geometry .sigmgr 467x236+1092+416
+wm geometry .sigmgr 467x236+1093+416
+wm geometry .sigmgr 467x236+1103+424
+ScopeSigMgr:Unload 0 {{(1) run_nmos_inverter.sw0}}
+Graph0 delsignal Signal0
+Graph0 delsignal Signal1
+Graph0 delsignal Signal2
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.tr0}} 1 openonly
+# PF:2
+wm geometry .sigmgr._PF:2 290x358+1280+540
+GrXY:NewGraph
+# Graph1
+pf:read PF:2 v(vout)
+# WF:2:1
+Graph addsignal WF:2:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:2 v(vin)
+# WF:2:2
+Graph addsignal WF:2:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+pf:read PF:2 v(vin)
+# WF:2:2
+ScopeSigMgr:SetPfXAxis PF:2 WF:2:2
+pf:read PF:2 v(vout)
+# WF:2:1
+Graph addsignal WF:2:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+ScopeSigMgr:Unload 0 {{(1) run_nmos_inverter.tr0}}
+wm geometry .sigmgr 467x236+1103+424
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.tr0}} 1 openonly
+# PF:3
+wm geometry .sigmgr._PF:3 290x358+1280+540
+GrXY:NewGraph
+# Graph2
+pf:read PF:3 v(vout)
+# WF:3:1
+Graph addsignal WF:3:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+wm geometry .sigmgr 467x236+1103+424
+pf:read PF:3 v(vin)
+# WF:3:2
+Graph addsignal WF:3:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+ScopeSigMgr:Unload 0 {{(1) run_nmos_inverter.tr0}}
+Graph2 delsignal Signal0
+Graph2 delsignal Signal1
+Mdi:ArrangeIcons
+wm geometry . 900x785+483+180
+Mdi:ArrangeIcons
+wm geometry . 900x785+490+178
+Mdi:ArrangeIcons
+wm geometry . 900x785+494+176
+Mdi:ArrangeIcons
+wm geometry . 900x785+498+172
+Mdi:ArrangeIcons
+wm geometry . 900x785+501+170
+Mdi:ArrangeIcons
+wm geometry . 900x785+505+168
+Mdi:ArrangeIcons
+wm geometry . 900x785+509+165
+Mdi:ArrangeIcons
+wm geometry . 900x785+521+161
+Mdi:ArrangeIcons
+wm geometry . 900x785+803+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+874+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1053+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1171+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1260+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1334+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1392+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1462+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1551+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1650+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1778+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1962+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1966+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1946+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1850+159
+Mdi:ArrangeIcons
+wm geometry . 900x785+1743+156
+Mdi:ArrangeIcons
+wm geometry . 900x785+1668+156
+Mdi:ArrangeIcons
+wm geometry . 900x785+1600+151
+Mdi:ArrangeIcons
+wm geometry . 900x785+1560+145
+Mdi:ArrangeIcons
+wm geometry . 900x785+1544+143
+Mdi:ArrangeIcons
+wm geometry . 900x785+1533+141
+Mdi:ArrangeIcons
+wm geometry . 900x785+1528+139
+Mdi:ArrangeIcons
+wm geometry . 900x785+1527+139
+Mdi:ArrangeIcons
+wm geometry . 900x785+1524+138
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.tr0}} 1 openonly
+# PF:4
+wm geometry .sigmgr._PF:4 290x358+1280+540
+GrXY:NewGraph
+# Graph3
+pf:read PF:4 v(vin)
+# WF:4:1
+Graph addsignal WF:4:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+wm geometry .sigmgr._PF:4 290x358+1272+531
+wm geometry .sigmgr._PF:4 290x358+1292+531
+wm geometry .sigmgr._PF:4 290x358+1332+531
+wm geometry .sigmgr._PF:4 290x358+1355+531
+wm geometry .sigmgr._PF:4 290x358+1371+531
+wm geometry .sigmgr._PF:4 290x358+1388+531
+wm geometry .sigmgr._PF:4 290x358+1405+531
+wm geometry .sigmgr._PF:4 290x358+1418+531
+wm geometry .sigmgr._PF:4 290x358+1430+531
+wm geometry .sigmgr._PF:4 290x358+1435+531
+wm geometry .sigmgr._PF:4 290x358+1439+530
+wm geometry .sigmgr._PF:4 290x358+1443+530
+wm geometry .sigmgr._PF:4 290x358+1445+530
+wm geometry .sigmgr._PF:4 290x358+1449+530
+wm geometry .sigmgr._PF:4 290x358+1452+530
+wm geometry .sigmgr._PF:4 290x358+1453+530
+wm geometry .sigmgr._PF:4 290x358+1465+530
+wm geometry .sigmgr._PF:4 290x358+1502+530
+wm geometry .sigmgr._PF:4 290x358+1558+530
+wm geometry .sigmgr._PF:4 290x358+1653+502
+wm geometry .sigmgr._PF:4 290x358+1722+487
+wm geometry .sigmgr._PF:4 290x358+1733+482
+wm geometry .sigmgr._PF:4 290x358+1751+473
+wm geometry .sigmgr._PF:4 290x358+1760+471
+wm geometry .sigmgr._PF:4 290x358+1774+466
+wm geometry .sigmgr._PF:4 290x358+1791+462
+wm geometry .sigmgr._PF:4 290x358+1807+459
+wm geometry .sigmgr._PF:4 290x358+1819+454
+wm geometry .sigmgr._PF:4 290x358+1828+453
+wm geometry .sigmgr._PF:4 290x358+1835+451
+wm geometry .sigmgr._PF:4 290x358+1842+448
+wm geometry .sigmgr._PF:4 290x358+1848+446
+wm geometry .sigmgr._PF:4 290x358+1855+444
+wm geometry .sigmgr._PF:4 290x358+1857+443
+wm geometry .sigmgr 467x236+1096+416
+wm geometry .sigmgr 467x236+1151+422
+wm geometry .sigmgr 467x236+1228+434
+wm geometry .sigmgr 467x236+1323+446
+wm geometry .sigmgr 467x236+1435+456
+wm geometry .sigmgr 467x236+1551+475
+wm geometry .sigmgr 467x236+1657+495
+wm geometry .sigmgr 467x236+1712+499
+wm geometry .sigmgr 467x236+1731+503
+wm geometry .sigmgr 467x236+1732+503
+wm geometry .sigmgr 467x236+1742+511
+ScopeSigMgr:Unload 0 {{(1) run_nmos_inverter.tr0}}
+Graph3 delsignal Signal0
+Mdi:ArrangeIcons
+wm geometry . 900x785+1493+152
+Mdi:ArrangeIcons
+wm geometry . 900x785+1415+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1202+277
+Mdi:ArrangeIcons
+wm geometry . 900x785+1070+345
+Mdi:ArrangeIcons
+wm geometry . 900x785+1002+374
+Mdi:ArrangeIcons
+wm geometry . 900x785+933+397
+Mdi:ArrangeIcons
+wm geometry . 900x785+905+410
+Mdi:ArrangeIcons
+wm geometry . 900x785+858+429
+Mdi:ArrangeIcons
+wm geometry . 900x785+816+444
+Mdi:ArrangeIcons
+wm geometry . 900x785+799+448
+Mdi:ArrangeIcons
+wm geometry . 900x785+784+451
+Mdi:ArrangeIcons
+wm geometry . 900x785+778+451
+Mdi:ArrangeIcons
+wm geometry . 900x785+776+451
+Mdi:ArrangeIcons
+wm geometry . 900x785+775+450
+Mdi:ArrangeIcons
+wm geometry . 900x785+775+444
+Mdi:ArrangeIcons
+wm geometry . 900x785+777+435
+Mdi:ArrangeIcons
+wm geometry . 900x785+787+420
+Mdi:ArrangeIcons
+wm geometry . 900x785+832+385
+Mdi:ArrangeIcons
+wm geometry . 900x785+885+359
+Mdi:ArrangeIcons
+wm geometry . 900x785+943+339
+Mdi:ArrangeIcons
+wm geometry . 900x785+997+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1045+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1092+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1124+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1148+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1167+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1188+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1206+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1224+329
+Mdi:ArrangeIcons
+wm geometry . 900x785+1253+328
+Mdi:ArrangeIcons
+wm geometry . 900x785+1274+322
+Mdi:ArrangeIcons
+wm geometry . 900x785+1298+316
+Mdi:ArrangeIcons
+wm geometry . 900x785+1325+306
+Mdi:ArrangeIcons
+wm geometry . 900x785+1353+296
+Mdi:ArrangeIcons
+wm geometry . 900x785+1376+286
+Mdi:ArrangeIcons
+wm geometry . 900x785+1399+271
+Mdi:ArrangeIcons
+wm geometry . 900x785+1423+256
+Mdi:ArrangeIcons
+wm geometry . 900x785+1438+241
+Mdi:ArrangeIcons
+wm geometry . 900x785+1443+229
+Mdi:ArrangeIcons
+wm geometry . 900x785+1453+222
+Mdi:ArrangeIcons
+wm geometry . 900x785+1453+219
+Mdi:ArrangeIcons
+wm geometry . 900x785+1469+207
+Mdi:ArrangeIcons
+wm geometry . 900x785+1473+198
+Mdi:ArrangeIcons
+wm geometry . 900x785+1476+194
+Mdi:ArrangeIcons
+wm geometry . 900x785+1481+189
+Mdi:ArrangeIcons
+wm geometry . 900x785+1485+184
+Mdi:ArrangeIcons
+wm geometry . 900x785+1489+180
+Mdi:ArrangeIcons
+wm geometry . 900x785+1493+176
+Mdi:ArrangeIcons
+wm geometry . 900x785+1494+175
+Mdi:ArrangeIcons
+wm geometry . 900x785+1495+173
+Mdi:ArrangeIcons
+wm geometry . 900x785+1497+171
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.tr0}} 1 openonly
+# PF:5
+wm geometry .sigmgr._PF:5 290x358+1280+540
+GrXY:NewGraph
+# Graph4
+pf:read PF:5 v(vin)
+# WF:5:1
+Graph addsignal WF:5:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:5 v(vout)
+# WF:5:2
+Graph addsignal WF:5:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+wm geometry .sigmgr 467x236+1730+503
+wm geometry .sigmgr 467x236+1662+515
+wm geometry .sigmgr 467x236+1599+515
+wm geometry .sigmgr 467x236+1534+515
+wm geometry .sigmgr 467x236+1467+515
+wm geometry .sigmgr 467x236+1409+515
+wm geometry .sigmgr 467x236+1351+509
+wm geometry .sigmgr 467x236+1301+502
+wm geometry .sigmgr 467x236+1256+496
+wm geometry .sigmgr 467x236+1215+493
+wm geometry .sigmgr 467x236+1177+486
+wm geometry .sigmgr 467x236+1143+483
+wm geometry .sigmgr 467x236+1093+475
+wm geometry .sigmgr 467x236+1061+470
+wm geometry .sigmgr 467x236+1033+465
+wm geometry .sigmgr 467x236+1023+465
+wm geometry .sigmgr 467x236+995+465
+wm geometry .sigmgr 467x236+978+465
+wm geometry .sigmgr 467x236+956+447
+wm geometry .sigmgr 467x236+942+442
+wm geometry .sigmgr 467x236+917+440
+wm geometry .sigmgr 467x236+904+440
+wm geometry .sigmgr 467x236+895+440
+wm geometry .sigmgr 467x236+885+440
+wm geometry .sigmgr 467x236+881+440
+wm geometry .sigmgr 467x236+878+440
+wm geometry .sigmgr 467x236+875+440
+wm geometry .sigmgr 467x236+872+440
+wm geometry .sigmgr 467x236+867+440
+wm geometry .sigmgr 467x236+866+440
+wm geometry .sigmgr 467x236+865+440
+Graph:Select Graph4
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -rgnindex 1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.69497484755461 0.023481827256684} {35.567p 656.54p}}
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{-0.4 1.2 } {-400p 1.2n }}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.9048647285844 -0.21330945070223} {-448.53p 1.0702n}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.90558716326626 -0.14196548890754} {-187.5p 1.2363n}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.75257385452177 -0.083114216313502} {-56.979p 1.1533n}}
+wm geometry .sigmgr._PF:5 290x358+1271+537
+wm geometry .sigmgr._PF:5 290x358+1275+568
+wm geometry .sigmgr._PF:5 290x358+1284+610
+wm geometry .sigmgr._PF:5 290x358+1293+710
+wm geometry .sigmgr._PF:5 290x358+1293+781
+wm geometry .sigmgr._PF:5 290x358+1293+788
+wm geometry .sigmgr._PF:5 290x358+1293+791
+wm geometry .sigmgr._PF:5 290x358+1309+776
+wm geometry .sigmgr._PF:5 290x358+1350+722
+wm geometry .sigmgr._PF:5 290x358+1435+591
+wm geometry .sigmgr._PF:5 290x358+1475+526
+wm geometry .sigmgr._PF:5 290x358+1481+493
+wm geometry .sigmgr._PF:5 290x358+1481+472
+wm geometry .sigmgr._PF:5 290x358+1480+470
+wm geometry .sigmgr._PF:5 290x358+1476+467
+wm geometry .sigmgr._PF:5 290x358+1468+462
+wm geometry .sigmgr._PF:5 290x358+1409+436
+wm geometry .sigmgr._PF:5 290x358+1293+407
+wm geometry .sigmgr._PF:5 290x358+1119+352
+wm geometry .sigmgr._PF:5 290x358+1010+300
+wm geometry .sigmgr._PF:5 290x358+993+283
+wm geometry .sigmgr._PF:5 290x358+982+269
+wm geometry .sigmgr._PF:5 290x358+976+255
+wm geometry .sigmgr._PF:5 290x358+971+244
+wm geometry .sigmgr._PF:5 290x358+965+235
+wm geometry .sigmgr._PF:5 290x358+953+227
+wm geometry .sigmgr._PF:5 290x358+942+221
+wm geometry .sigmgr._PF:5 290x358+912+208
+wm geometry .sigmgr._PF:5 290x358+886+199
+wm geometry .sigmgr._PF:5 290x358+854+189
+wm geometry .sigmgr._PF:5 290x358+812+178
+wm geometry .sigmgr._PF:5 290x358+765+174
+wm geometry .sigmgr._PF:5 290x358+716+165
+wm geometry .sigmgr._PF:5 290x358+669+160
+wm geometry .sigmgr._PF:5 290x358+628+156
+wm geometry .sigmgr._PF:5 290x358+603+154
+wm geometry .sigmgr._PF:5 290x358+590+152
+wm geometry .sigmgr._PF:5 290x358+579+152
+wm geometry .sigmgr 467x236+842+444
+wm geometry .sigmgr 467x236+777+461
+wm geometry .sigmgr 467x236+697+475
+wm geometry .sigmgr 467x236+586+489
+wm geometry .sigmgr 467x236+466+498
+wm geometry .sigmgr 467x236+380+511
+wm geometry .sigmgr 467x236+322+520
+wm geometry .sigmgr 467x236+313+520
+ScopeSigMgr:Unload 0 {{(1) run_nmos_inverter.tr0}}
+Graph4 delsignal Signal0
+Graph4 delsignal Signal1
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.tr0}} 1 openonly
+# PF:6
+wm geometry .sigmgr._PF:6 290x358+1280+540
+GrXY:NewGraph
+# Graph5
+pf:read PF:6 v(vin)
+# WF:6:1
+Graph addsignal WF:6:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:6 v(vout)
+# WF:6:2
+Graph addsignal WF:6:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+wm geometry .sigmgr._PF:6 290x358+1263+534
+wm geometry .sigmgr._PF:6 290x358+1127+473
+wm geometry .sigmgr._PF:6 290x358+1080+445
+wm geometry .sigmgr._PF:6 290x358+1051+425
+wm geometry .sigmgr._PF:6 290x358+1044+421
+wm geometry .sigmgr._PF:6 290x358+1039+416
+wm geometry .sigmgr._PF:6 290x358+1035+412
+wm geometry .sigmgr._PF:6 290x358+1032+409
+wm geometry .sigmgr._PF:6 290x358+1029+406
+wm geometry .sigmgr._PF:6 290x358+1028+405
+wm geometry .sigmgr._PF:6 290x358+1025+403
+wm geometry .sigmgr._PF:6 290x358+1024+402
+Graph:Select Graph5
+Graph axisconfig AxisY(1,0) -range {0.8779761113393 0.017711544010145}
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -rgnindex 1
+Mdi:ArrangeIcons
+wm geometry . 900x785+1491+177
+Mdi:ArrangeIcons
+wm geometry . 900x785+1449+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1433+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1429+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1421+213
+Mdi:ArrangeIcons
+wm geometry . 900x785+1409+222
+Mdi:ArrangeIcons
+wm geometry . 900x785+1400+229
+Mdi:ArrangeIcons
+wm geometry . 900x785+1393+234
+ScopeSigMgr:Unload 0 {{(1) run_nmos_inverter.tr0}}
+Graph5 delsignal Signal0
+Graph5 delsignal Signal1
+wm geometry .sigmgr 467x236+323+528
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.tr0}} 1 openonly
+# PF:7
+wm geometry .sigmgr._PF:7 290x358+1280+540
+GrXY:NewGraph
+# Graph6
+pf:read PF:7 v(vout)
+# WF:7:1
+Graph addsignal WF:7:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+wm geometry .sigmgr._PF:7 290x358+1268+532
+wm geometry .sigmgr._PF:7 290x358+1197+546
+wm geometry .sigmgr._PF:7 290x358+1147+554
+wm geometry .sigmgr._PF:7 290x358+1108+559
+wm geometry .sigmgr._PF:7 290x358+1074+566
+wm geometry .sigmgr._PF:7 290x358+1053+568
+wm geometry .sigmgr._PF:7 290x358+1052+567
+wm geometry .sigmgr._PF:7 290x358+1052+564
+wm geometry .sigmgr._PF:7 290x358+1052+559
+wm geometry .sigmgr._PF:7 290x358+1053+556
+wm geometry .sigmgr._PF:7 290x358+1055+554
+wm geometry .sigmgr._PF:7 290x358+1056+553
+wm geometry .sigmgr._PF:7 290x358+1057+551
+wm geometry .sigmgr._PF:7 290x358+1060+547
+wm geometry .sigmgr._PF:7 290x358+1062+544
+wm geometry .sigmgr._PF:7 290x358+1065+540
+wm geometry .sigmgr._PF:7 290x358+1066+536
+wm geometry .sigmgr._PF:7 290x358+1068+535
+pf:read PF:7 v(vin)
+# WF:7:2
+Graph addsignal WF:7:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+Graph:Select Graph6
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -rgnindex 1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.81032334183891 -0.021833652640722} {111.01p 1.0251n}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.78788461807819 0.058128837912178} {182.471p 1.0249n}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.76847889430543 0.071679826792073} {18.9027p 1.04613n}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.67745559269332 0.65234571638654} {102.494p 124.257p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+GrMeas:Levels Graph6 Signal0 {Maximum XatMinimum} xyrangeAll
+# M:0
+Graph:DSel
+GrMeas:Select Graph6 M:0 0
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.7196923820441 0.048199361746178} {151.64p 430.21p}}
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph itemselect Signal0 rem
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+GrMeas:P2P Graph6 Signal1 Signal1 1 {{} {} {} {}} xyrangeVisible {X1,Y1 X2,Y2 DeltaX DeltaY Length Slope}
+# M:1
+Graph:DSel
+GrMeas:Select Graph6 M:1 0 1
+GrMeas:MoveDiffAnc2 Graph6 M:1 0 418.84041893993p 0.75361675436534
+GrMeas:MoveDiffAnc1 Graph6 M:1 0 217.16238298029p 0.68649534337635
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+GrMeas:DelMfromMenu Graph6 M:1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.68673566939144 0.15118908878574} {351.86p 456.32p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+GrMeas:Levels Graph6 Signal0 {Maximum Minimum XatMaximum XatMinimum} xyrangeAll
+# M:2
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.67025731306511 0.089395252562002} {340.25p 656.54p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.8597584108179 -0.050670776211798} {79.094p 705.87p}}
+GrMeas:Levels Graph6 Signal0 {Maximum Minimum XatMaximum XatMinimum} xyrangeVisible
+# M:3
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+GrMeas:Select Graph6 M:3 0
+GrMeas:DelMfromMenu Graph6 M:3
+GrMeas:DelMfromMenu Graph6 M:2
+GrMeas:DelMfromMenu Graph6 M:0
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.87623676714423 0.90507389071531} {9.4513p 47.174p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Mdi:FullSize
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -fill #ff74bd
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph axisconfig AxisY(0,0) -range {0.84780046502555 -0.036595331332315}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.84780046502555 0.59933563422167} {-4.9129p 184.33p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.83563785093026 -0.027907749835676} {58.093p 992.8p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.82560275093141 -0.037087881496755} {105.49p 446p}}
+GrMeas:Levels Graph6 Signal1 {Maximum Minimum} xyrangeVisible
+# M:4
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+GrMeas:Levels Graph6 Signal1 {Maximum Minimum} xyrangeDefined
+# M:5
+GrMeas:Levels Graph6 Signal1 {Maximum Minimum} xyrangeDefined
+# M:5
+GrMeas:Levels Graph6 Signal1 {Maximum Minimum} xyrangeDefined
+# M:5
+GrMeas:Levels Graph6 Signal1 {Maximum Minimum} xyrangeDefined
+# M:5
+GrMeas:Levels Graph6 Signal1 {Maximum Minimum} xyrangeDefined
+# M:5
+GrMeas:Levels Graph6 Signal1 {Maximum Minimum} xyrangeDefined
+# M:5
+GrMeas:Levels Graph6 Signal1 {XatMaximum XatMinimum} xyrangeDefined
+# M:5
+GrMeas:Levels Graph6 Signal0 {XatMaximum XatMinimum} xyrangeDefined
+# M:6
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+GrMeas:Levels Graph6 Signal1 {XatMaximum XatMinimum} xyrangeDefined
+GrMeas:WinMaxMin Graph6 Signal1 WinMaximum 0 xyrangeDefined
+# M:7
+GrMeas:AtX Graph6 Signal1 {} xyrangeVisible
+# M:8
+Graph:DSel
+GrMeas:Select Graph6 M:8 0 1
+GrMeas:MovePoint Graph6 M:8 0 508.55965473992p 0.45761381982803
+GrMeas:DelMfromMenu Graph6 M:8
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph:DSel
+GrMeas:Select Graph6 M:5 1
+Graph:DSel
+Graph itemselect AxisX(0) add
+# AxisX(0)
+GrMeas:VerticalMarker Graph6 {Signal0 Signal1} 409.8p
+# M:9
+Graph:DSel
+GrMeas:Select Graph6 M:9 2
+GrMeas:MoveText Graph6 M:9 2 ne
+GrMeas:MoveXLevel Graph6 M:9 2 498.58701602415p
+# M:9
+GrMeas:MoveXLevel Graph6 M:9 2 498.58701602415p
+# M:9
+GrMeas:DelMfromMenu Graph6 M:9
+Graph:DSel
+GrMeas:Select Graph6 M:7 2
+GrMeas:MoveText Graph6 M:7 2 se
+GrMeas:DelMfromMenu Graph6 M:7
+Graph:DSel
+GrMeas:Select Graph6 M:6 0 1
+Graph:DSel
+GrMeas:Select Graph6 M:6 1 1
+GrMeas:HideResult Graph6 M:6 1
+GrMeas:ShowResult Graph6 M:6 1
+GrMeas:HideResult Graph6 M:6 0
+GrMeas:ShowResult Graph6 M:6 0
+Graph:DSel
+GrMeas:Select Graph6 M:5 2 1
+GrMeas:Delete Graph6 M:5
+Graph:DSel
+GrMeas:Select Graph6 M:6 0 1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.71748674257597 0.057230548831388} {634.23p 990.11p}}
+GrMeas:Levels Graph6 Signal0 {Maximum Minimum} xyrangeVisible
+# M:10
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+GrMeas:Select Graph6 M:6 0 1
+GrMeas:DelMfromMenu Graph6 M:6
+GrMeas:HideResult Graph6 M:10 0
+GrMeas:HideResult Graph6 M:10 0
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisY(0,0)} -scale {{linear} {linear}} -gridvis {{no} {no}} -linticks {{} {}} -logticks {{1 1} {}} -subticks {{0} {0}} -label {{t(s)} {(V)}} -digiview {{} {}} -lock {{no} {no}} -slider {{no} {no}} -range {{634.23p 990.11p} {0.71748674257597 0.057230548831388}} -unitscale {{auto} {auto}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.71053667737865 0.046805451035421} {271.63p 752.41p}}
+GrMeas:Levels Graph6 Signal0 {Maximum Minimum} xyrangeVisible
+# M:11
+GrMeas:WinMaxMin Graph6 Signal0 {WinMaximum WinMinimum} 0 xyrangeVisible
+# M:11
+GrMeas:WinMaxMin Graph6 Signal0 {WinMaximum WinMinimum} 0 xyrangeVisible
+# M:11
+GrMeas:WinMaxMin Graph6 Signal0 {WinMaximum WinMinimum XatWinMaximum XatWinMinimum} 0 xyrangeVisible
+# M:11
+GrMeas:Levels Graph6 Signal0 PeaktoPeak xyrangeVisible
+GrMeas:WinMaxMin Graph6 Signal0 {WinMaximum WinMinimum XatWinMaximum XatWinMinimum} 0 xyrangeVisible
+# M:11
+GrMeas:Levels Graph6 Signal0 {PeaktoPeak Topline} xyrangeVisible
+GrMeas:WinMaxMin Graph6 Signal0 {WinMaximum WinMinimum XatWinMaximum XatWinMinimum} 0 xyrangeVisible
+# M:11
+GrMeas:Levels Graph6 Signal0 {PeaktoPeak Topline Baseline} xyrangeVisible
+GrMeas:WinMaxMin Graph6 Signal0 {WinMaximum WinMinimum XatWinMaximum XatWinMinimum} 0 xyrangeVisible
+# M:11
+Graph:DSel
+GrMeas:Select Graph6 M:11 2
+Graph:DSel
+GrMeas:Select Graph6 M:11 7
+GrMeas:DelMfromMenu Graph6 M:11
+Graph:DSel
+GrMeas:Select Graph6 M:10 1
+GrMeas:HideResult Graph6 M:10 1
+GrMeas:HideResult Graph6 M:10 1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.72344982555796 0.32483232958518} {340.413198773p 762.642851915p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+GrMeas:Levels Graph6 Signal0 {XatMaximum XatMinimum} xyrangeVisible
+# M:12
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.72791184037193 0.048542967334749} {203.13p 764.5p}}
+GrMeas:Levels Graph6 Signal0 {XatMaximum XatMinimum} xyrangeVisible
+# M:13
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+GrMeas:Select Graph6 M:13 0 2
+Mdi:ArrangeIcons
+wm geometry . 900x785+1386+234
+Mdi:ArrangeIcons
+wm geometry . 900x785+1306+249
+Mdi:ArrangeIcons
+wm geometry . 900x785+1101+280
+Mdi:ArrangeIcons
+wm geometry . 900x785+832+307
+Mdi:ArrangeIcons
+wm geometry . 900x785+705+307
+Mdi:ArrangeIcons
+wm geometry . 900x785+676+307
+Mdi:ArrangeIcons
+wm geometry . 900x785+665+305
+Mdi:ArrangeIcons
+wm geometry . 900x785+650+300
+Mdi:ArrangeIcons
+wm geometry . 900x785+631+296
+Mdi:ArrangeIcons
+wm geometry . 900x785+618+291
+Mdi:ArrangeIcons
+wm geometry . 900x785+610+289
+Mdi:ArrangeIcons
+wm geometry . 900x785+600+281
+Mdi:ArrangeIcons
+wm geometry . 900x785+598+279
+Mdi:ArrangeIcons
+wm geometry . 900x785+596+274
+Mdi:ArrangeIcons
+wm geometry . 900x785+595+270
+Mdi:ArrangeIcons
+wm geometry . 900x785+595+262
+Mdi:ArrangeIcons
+wm geometry . 900x785+600+254
+Mdi:ArrangeIcons
+wm geometry . 900x785+625+236
+Mdi:ArrangeIcons
+wm geometry . 900x785+677+216
+Mdi:ArrangeIcons
+wm geometry . 900x785+836+188
+Mdi:ArrangeIcons
+wm geometry . 900x785+1003+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1093+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1140+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1170+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1192+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1209+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1214+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1217+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1219+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1226+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1233+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1239+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1243+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1246+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1247+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1251+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1256+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1264+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1275+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1289+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+1300+163
+Mdi:ArrangeIcons
+wm geometry . 900x785+1304+161
+Mdi:ArrangeIcons
+wm geometry . 900x785+1309+160
+Mdi:ArrangeIcons
+wm geometry . 900x785+1314+157
+Mdi:ArrangeIcons
+wm geometry . 900x785+1319+157
+Mdi:ArrangeIcons
+wm geometry . 900x785+1322+156
+Mdi:ArrangeIcons
+wm geometry . 900x785+1323+156
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+.frame1.mdi.mdi7.work.graph6 save -file {/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/3 Transiet .jpg} -format jpeg  -x 0 -y 0 -w 888 -h 657 -colormode color
+Graph:DSel
+Graph:Select Graph6
+Graph:DSel
+GrMeas:Select Graph6 M:4 0
+GrMeas:DelMfromMenu Graph6 M:4
+GrMeas:Levels Graph6 Signal1 {XatMaximum XatMinimum} xyrangeVisible
+# M:14
+Graph:DSel
+GrMeas:Select Graph6 M:14 0 1
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -fill yellow
+Graph itemselect Signal1 add
+# Signal1
+Graph itemselect Signal1 add
+# Signal1
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -fill #89ffbb
+Graph itemselect Signal1 add
+# Signal1
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -fill #ff74bd
+.frame1.mdi.mdi7.work.graph6 save -file {/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/3 Transiet .jpg} -format jpeg  -x 0 -y 0 -w 888 -h 657 -colormode color
+Mdi:ArrangeIcons
+wm geometry . 900x785+1312+176
+Mdi:ArrangeIcons
+wm geometry . 900x785+1257+223
+Mdi:ArrangeIcons
+wm geometry . 900x785+1121+280
+Mdi:ArrangeIcons
+wm geometry . 900x785+921+379
+Mdi:ArrangeIcons
+wm geometry . 900x785+767+445
+Mdi:ArrangeIcons
+wm geometry . 900x785+741+441
+Mdi:ArrangeIcons
+wm geometry . 900x785+711+415
+Mdi:ArrangeIcons
+wm geometry . 900x785+649+373
+Mdi:ArrangeIcons
+wm geometry . 900x785+628+357
+Mdi:ArrangeIcons
+wm geometry . 900x785+615+344
+Mdi:ArrangeIcons
+wm geometry . 900x785+610+339
+Mdi:ArrangeIcons
+wm geometry . 900x785+608+332
+Mdi:ArrangeIcons
+wm geometry . 900x785+608+319
+Mdi:ArrangeIcons
+wm geometry . 900x785+611+296
+Mdi:ArrangeIcons
+wm geometry . 900x785+646+253
+Mdi:ArrangeIcons
+wm geometry . 900x785+728+194
+Mdi:ArrangeIcons
+wm geometry . 900x785+831+162
+Mdi:ArrangeIcons
+wm geometry . 900x785+851+154
+Mdi:ArrangeIcons
+wm geometry . 900x785+854+154
+Mdi:ArrangeIcons
+wm geometry . 900x785+868+157
+Mdi:ArrangeIcons
+wm geometry . 900x785+914+169
+Mdi:ArrangeIcons
+wm geometry . 900x785+949+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+967+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+968+179
+ScopeSigMgr:Unload 0 {{(1) run_nmos_inverter.tr0}}
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.sw0}} 1 openonly
+# PF:38
+wm geometry .sigmgr._PF:38 290x358+1310+570
+pf:read PF:38 v(vin)
+# WF:38:1
+ScopeSigMgr:SetPfXAxis PF:38 WF:38:1
+pf:read PF:38 v(vout)
+# WF:38:2
+Graph addsignal WF:38:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal2
+wm geometry .sigmgr._PF:38 290x358+1343+557
+wm geometry .sigmgr._PF:38 290x358+1478+544
+wm geometry .sigmgr._PF:38 290x358+1615+533
+wm geometry .sigmgr._PF:38 290x358+1767+520
+wm geometry .sigmgr._PF:38 290x358+1824+509
+wm geometry .sigmgr._PF:38 290x358+1852+504
+wm geometry .sigmgr._PF:38 290x358+1869+498
+wm geometry .sigmgr._PF:38 290x358+1885+493
+wm geometry .sigmgr._PF:38 290x358+1905+488
+wm geometry .sigmgr._PF:38 290x358+1925+482
+wm geometry .sigmgr._PF:38 290x358+1938+478
+wm geometry .sigmgr._PF:38 290x358+1950+471
+wm geometry .sigmgr._PF:38 290x358+1960+462
+wm geometry .sigmgr._PF:38 290x358+1982+443
+wm geometry .sigmgr._PF:38 290x358+1987+438
+wm geometry .sigmgr._PF:38 290x358+1990+435
+wm geometry .sigmgr._PF:38 290x358+1993+432
+wm geometry .sigmgr._PF:38 290x358+1995+427
+wm geometry .sigmgr._PF:38 290x358+1997+422
+wm geometry .sigmgr._PF:38 290x358+1997+420
+wm geometry .sigmgr._PF:7 290x358+1086+533
+wm geometry .sigmgr._PF:7 290x358+1208+533
+wm geometry .sigmgr._PF:7 290x358+1488+506
+wm geometry .sigmgr._PF:7 290x358+1597+485
+wm geometry .sigmgr._PF:7 290x358+1629+474
+wm geometry .sigmgr._PF:7 290x358+1657+461
+wm geometry .sigmgr._PF:7 290x358+1683+449
+wm geometry .sigmgr._PF:7 290x358+1707+439
+wm geometry .sigmgr._PF:7 290x358+1729+430
+wm geometry .sigmgr._PF:7 290x358+1750+420
+wm geometry .sigmgr._PF:7 290x358+1778+420
+wm geometry .sigmgr._PF:7 290x358+1807+400
+wm geometry .sigmgr._PF:7 290x358+1863+373
+wm geometry .sigmgr._PF:7 290x358+1898+350
+wm geometry .sigmgr._PF:7 290x358+1913+343
+wm geometry .sigmgr._PF:7 290x358+1917+340
+wm geometry .sigmgr._PF:7 290x358+1918+339
+wm geometry .sigmgr._PF:7 290x358+1920+337
+wm geometry .sigmgr._PF:7 290x358+1923+335
+wm geometry .sigmgr._PF:7 290x358+1928+332
+wm geometry .sigmgr._PF:7 290x358+1930+330
+wm geometry .sigmgr._PF:7 290x358+1933+329
+wm geometry .sigmgr._PF:7 290x358+1935+327
+wm geometry .sigmgr._PF:7 290x358+1939+325
+wm geometry .sigmgr._PF:7 290x358+1942+324
+wm geometry .sigmgr._PF:7 290x358+1946+322
+wm geometry .sigmgr._PF:7 290x358+1947+322
+GrXY:NewGraph
+# Graph7
+Mdi:Move 51 50
+Graph:Select Graph6
+Graph:Select Graph6
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+GrMeas:Levels Graph6 Signal2 XatMaximum xyrangeVisible
+# M:15
+GrMeas:Levels Graph6 Signal2 {XatMaximum XatMinimum} xyrangeVisible
+# M:15
+Graph:DSel
+Mdi:Move 20 50
+Mdi:Move 0 0
+pf:read PF:7 v(vin)
+# WF:7:2
+ScopeSigMgr:SetPfXAxis PF:7 WF:7:2
+pf:read PF:7 v(vout)
+# WF:7:1
+Graph addsignal WF:7:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal3
+Graph:Select Graph6
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph axisconfig AxisY(2,0) -range {0.79498705919113 0.12186127439429}
+Graph:DSel
+Graph:DSel
+Graph axisconfig {AxisX(0) AxisX(1) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph axisconfig {AxisX(0) AxisX(1) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph axisconfig {AxisX(0) AxisX(1) AxisY(0,0) AxisY(1,0) AxisY(2,0)} -range {all all all all all} -zoomed {0 0 0 0 0}
+Graph:DSel
+Mdi:ArrangeIcons
+wm geometry . 900x785+961+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+876+179
+Mdi:ArrangeIcons
+wm geometry . 900x785+746+226
+Mdi:ArrangeIcons
+wm geometry . 900x785+685+246
+Mdi:ArrangeIcons
+wm geometry . 900x785+640+263
+Mdi:ArrangeIcons
+wm geometry . 900x785+636+267
+Mdi:ArrangeIcons
+wm geometry . 900x785+618+276
+Mdi:ArrangeIcons
+wm geometry . 900x785+615+277
+Mdi:ArrangeIcons
+wm geometry . 900x785+675+256
+Mdi:ArrangeIcons
+wm geometry . 900x785+1063+146
+Mdi:ArrangeIcons
+wm geometry . 900x785+1424+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+1467+73
+Mdi:ArrangeIcons
+wm geometry . 900x785+1472+73
+Mdi:ArrangeIcons
+wm geometry . 900x785+1490+73
+Mdi:ArrangeIcons
+wm geometry . 900x785+1516+73
+Mdi:ArrangeIcons
+wm geometry . 900x785+1568+73
+Mdi:ArrangeIcons
+wm geometry . 900x785+1608+73
+Mdi:ArrangeIcons
+wm geometry . 900x785+1637+73
+Mdi:ArrangeIcons
+wm geometry . 900x785+1650+76
+Mdi:ArrangeIcons
+wm geometry . 900x785+1685+78
+Mdi:ArrangeIcons
+wm geometry . 900x785+1699+82
+Mdi:ArrangeIcons
+wm geometry . 900x785+1701+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+1694+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+1599+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+1467+74
+Mdi:ArrangeIcons
+wm geometry . 900x785+1347+70
+Mdi:ArrangeIcons
+wm geometry . 900x785+1252+44
+Mdi:ArrangeIcons
+wm geometry . 900x785+1207+41
+Mdi:ArrangeIcons
+wm geometry . 900x785+1202+41
+Mdi:ArrangeIcons
+wm geometry . 900x785+1199+45
+Mdi:ArrangeIcons
+wm geometry . 900x785+1181+74
+Mdi:ArrangeIcons
+wm geometry . 900x785+1175+81
+Mdi:ArrangeIcons
+wm geometry . 900x785+1172+84
+Mdi:ArrangeIcons
+wm geometry . 900x785+1151+95
+Mdi:ArrangeIcons
+wm geometry . 900x785+1147+98
+Mdi:ArrangeIcons
+wm geometry . 900x785+1143+99
+Mdi:ArrangeIcons
+wm geometry . 900x785+1165+94
+Mdi:ArrangeIcons
+wm geometry . 900x785+1235+91
+Mdi:ArrangeIcons
+wm geometry . 900x785+1327+84
+Mdi:ArrangeIcons
+wm geometry . 900x785+1456+84
+Mdi:ArrangeIcons
+wm geometry . 900x785+1522+84
+Mdi:ArrangeIcons
+wm geometry . 900x785+1566+84
+Mdi:ArrangeIcons
+wm geometry . 900x785+1587+81
+Mdi:ArrangeIcons
+wm geometry . 900x785+1595+79
+Mdi:ArrangeIcons
+wm geometry . 900x785+1596+79
+Mdi:ArrangeIcons
+wm geometry . 900x785+1599+78
+Mdi:ArrangeIcons
+wm geometry . 900x785+1601+78
+Mdi:ArrangeIcons
+wm geometry . 900x785+1602+77
+Mdi:ArrangeIcons
+wm geometry . 900x785+1609+70
+Mdi:ArrangeIcons
+wm geometry . 900x785+1619+70
+Mdi:ArrangeIcons
+wm geometry . 900x785+1622+70
+Mdi:ArrangeIcons
+wm geometry . 900x785+1562+97
+Mdi:ArrangeIcons
+wm geometry . 900x785+1394+122
+Mdi:ArrangeIcons
+wm geometry . 900x785+1196+147
+Mdi:ArrangeIcons
+wm geometry . 900x785+973+147
+Mdi:ArrangeIcons
+wm geometry . 900x785+953+147
+Mdi:ArrangeIcons
+wm geometry . 900x785+945+149
+Mdi:ArrangeIcons
+wm geometry . 900x785+900+149
+Mdi:ArrangeIcons
+wm geometry . 900x785+879+151
+Mdi:ArrangeIcons
+wm geometry . 900x785+864+151
+Mdi:ArrangeIcons
+wm geometry . 900x785+863+151
+Mdi:ArrangeIcons
+wm geometry . 900x785+862+149
+Mdi:ArrangeIcons
+wm geometry . 900x785+873+138
+Mdi:ArrangeIcons
+wm geometry . 900x785+894+117
+Mdi:ArrangeIcons
+wm geometry . 900x785+913+110
+Mdi:ArrangeIcons
+wm geometry . 900x785+917+89
+Mdi:ArrangeIcons
+wm geometry . 900x785+925+88
+Mdi:ArrangeIcons
+wm geometry . 900x785+954+70
+Mdi:ArrangeIcons
+wm geometry . 900x785+967+70
+Mdi:ArrangeIcons
+wm geometry . 900x785+968+70
+Graph:DSel
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal2 add
+# Signal2
+Graph itemselect Signal2 add
+# Signal2
+Graph delsignal selected
+Graph:DSel
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.tr0}} 1 openonly
+# PF:39
+wm geometry .sigmgr._PF:39 290x358+1340+600
+pf:read PF:39 v(vin)
+# WF:39:1
+Graph addsignal WF:39:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal4
+pf:read PF:39 v(vout)
+# WF:39:2
+Graph addsignal WF:39:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal5
+Graph:Select Graph6
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+Graph sigconfig Signal5 -region 2 -rgnindex 1
+Graph:DSel
+pf:read PF:39 v(vin)
+# WF:39:1
+ScopeSigMgr:SetPfXAxis PF:39 WF:39:1
+pf:read PF:39 v(vout)
+# WF:39:2
+Graph addsignal WF:39:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal6
+wm geometry .sigmgr._PF:39 290x358+1334+589
+wm geometry .sigmgr._PF:39 290x358+1354+588
+wm geometry .sigmgr._PF:39 290x358+1404+571
+wm geometry .sigmgr._PF:39 290x358+1434+569
+wm geometry .sigmgr._PF:39 290x358+1479+564
+wm geometry .sigmgr._PF:39 290x358+1494+564
+wm geometry .sigmgr._PF:39 290x358+1512+562
+wm geometry .sigmgr._PF:39 290x358+1529+560
+wm geometry .sigmgr._PF:39 290x358+1543+557
+wm geometry .sigmgr._PF:39 290x358+1548+557
+wm geometry .sigmgr._PF:39 290x358+1554+557
+wm geometry .sigmgr._PF:39 290x358+1560+556
+wm geometry .sigmgr._PF:39 290x358+1573+556
+wm geometry .sigmgr._PF:39 290x358+1590+554
+wm geometry .sigmgr._PF:39 290x358+1621+554
+wm geometry .sigmgr._PF:39 290x358+1657+547
+wm geometry .sigmgr._PF:39 290x358+1706+543
+wm geometry .sigmgr._PF:39 290x358+1756+534
+wm geometry .sigmgr._PF:39 290x358+1817+530
+wm geometry .sigmgr._PF:39 290x358+1947+505
+wm geometry .sigmgr._PF:39 290x358+2095+481
+wm geometry .sigmgr._PF:39 290x358+2141+464
+wm geometry .sigmgr._PF:39 290x358+2164+449
+wm geometry .sigmgr._PF:39 290x358+2170+444
+wm geometry .sigmgr._PF:39 290x358+2179+437
+wm geometry .sigmgr._PF:39 290x358+2186+430
+wm geometry .sigmgr._PF:39 290x358+2190+425
+wm geometry .sigmgr._PF:39 290x358+2192+422
+wm geometry .sigmgr._PF:39 290x358+2196+420
+wm geometry .sigmgr._PF:39 290x358+2191+420
+wm geometry .sigmgr._PF:39 290x358+2171+395
+wm geometry .sigmgr._PF:39 290x358+2096+366
+wm geometry .sigmgr._PF:39 290x358+2001+351
+wm geometry .sigmgr._PF:39 290x358+1923+346
+wm geometry .sigmgr._PF:39 290x358+1892+340
+wm geometry .sigmgr._PF:39 290x358+1882+340
+wm geometry .sigmgr._PF:39 290x358+1876+340
+wm geometry .sigmgr._PF:39 290x358+1868+340
+wm geometry .sigmgr._PF:39 290x358+1843+340
+wm geometry .sigmgr._PF:39 290x358+1833+339
+wm geometry .sigmgr._PF:39 290x358+1822+337
+wm geometry .sigmgr._PF:39 290x358+1807+333
+wm geometry .sigmgr._PF:39 290x358+1796+332
+wm geometry .sigmgr._PF:39 290x358+1789+331
+wm geometry .sigmgr._PF:39 290x358+1787+329
+wm geometry .sigmgr._PF:39 290x358+1789+329
+wm geometry .sigmgr._PF:39 290x358+1809+330
+wm geometry .sigmgr._PF:39 290x358+1931+330
+wm geometry .sigmgr._PF:39 290x358+2050+330
+wm geometry .sigmgr._PF:39 290x358+2305+304
+wm geometry .sigmgr._PF:39 290x358+2362+297
+wm geometry .sigmgr._PF:39 290x358+2362+296
+wm geometry .sigmgr._PF:39 290x358+2362+291
+wm geometry .sigmgr._PF:39 290x358+2341+284
+wm geometry .sigmgr._PF:39 290x358+2287+260
+wm geometry .sigmgr._PF:39 290x358+2243+245
+wm geometry .sigmgr._PF:39 290x358+2204+225
+wm geometry .sigmgr._PF:39 290x358+2199+220
+wm geometry .sigmgr._PF:39 290x358+2197+218
+wm geometry .sigmgr._PF:39 290x358+2191+214
+wm geometry .sigmgr._PF:39 290x358+2187+211
+wm geometry .sigmgr._PF:39 290x358+2181+206
+wm geometry .sigmgr._PF:39 290x358+2172+200
+wm geometry .sigmgr._PF:39 290x358+2165+198
+wm geometry .sigmgr._PF:39 290x358+2159+194
+wm geometry .sigmgr._PF:39 290x358+2151+190
+wm geometry .sigmgr._PF:39 290x358+2143+186
+wm geometry .sigmgr._PF:39 290x358+2133+184
+wm geometry .sigmgr._PF:39 290x358+2116+178
+wm geometry .sigmgr._PF:39 290x358+2102+172
+wm geometry .sigmgr._PF:39 290x358+2086+169
+wm geometry .sigmgr._PF:39 290x358+2073+166
+wm geometry .sigmgr._PF:39 290x358+2072+163
+wm geometry .sigmgr._PF:39 290x358+2055+163
+wm geometry .sigmgr._PF:39 290x358+2051+163
+wm geometry .sigmgr._PF:39 290x358+2050+163
+wm geometry .sigmgr._PF:39 290x358+2048+163
+wm geometry .sigmgr._PF:39 290x358+2046+163
+wm geometry .sigmgr._PF:39 290x358+2045+163
+wm geometry .sigmgr._PF:39 290x358+2044+163
+wm geometry .sigmgr._PF:39 290x358+2043+163
+wm geometry .sigmgr._PF:39 290x358+2039+164
+Graph:Select Graph6
+Graph:DSel
+Graph itemselect Signal3 add
+# Signal3
+Graph itemselect Signal3 add
+# Signal3
+Graph itemselect Signal3 add
+# Signal3
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal4 add
+# Signal4
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal5 add
+# Signal5
+Graph itemselect Signal5 add
+# Signal5
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal6 add
+# Signal6
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph delsignal selected
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph delsignal selected

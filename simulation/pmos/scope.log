@@ -1,0 +1,33 @@
+ScopeSigMgr:loadpffile /home/class/chint078/tsmc16_chint078/simulation/pmos/run_pmos.sw0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1280+540
+pf:read PF:1 v(vdd)
+# WF:1:1
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:1
+pf:read PF:1 i(m3)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+wm geometry .sigmgr 467x236+454+203
+wm geometry .sigmgr 467x236+910+246
+wm geometry .sigmgr 467x236+1088+241
+Mdi:FullSize
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisX(0) -rang {-0.9 0.0} -gridvis n -label Vds -scale lin -unitscale auto
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisY(0,0) -rang {-400u 100u} -gridvis n -label Ids -scale lin -unitscale auto
+.frame1.mdi.mdi1.work.graph0 save -file {/home/class/chint078/tsmc16_chint078/simulation/pmos/1b(1) Ids vs Vds original .jpg} -format jpeg  -x 0 -y 0 -w 888 -h 657 -colormode color
+Mdi:ArrangeIcons
+wm geometry . 2560x944+-1+27
+wm geometry .sigmgr 467x236+1098+249
+ScopeSigMgr:Unload 0 {{(1) run_pmos.sw0 [6]}}
+ScopeSigMgr:Unload 0 {{(1) run_pmos.sw0 [6]}}

@@ -1,0 +1,16 @@
+* "simulator" "HSPICE" 
+* "version" "R-2020.12-3 linux64"
+* "format" "HSP"
+* "rundate" "00:09:52 10/09/2024 "
+* "netlist" "run_pmos.sp "
+* "runtitle" "** run inverter file"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ g =   0.            
++ vdd =   0.            
++ vss =   0.            
+***   END: Saved Operating Point ***                     

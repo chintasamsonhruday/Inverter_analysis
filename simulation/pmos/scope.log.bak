@@ -1,0 +1,126 @@
+ScopeSigMgr:loadpffile /home/class/chint078/tsmc16_chint078/simulation/pmos/run_pmos.sw0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1280+540
+pf:read PF:1 v(g)
+# WF:1:1
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:1
+pf:read PF:1 i(v2)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+wm geometry .sigmgr 467x236+419+198
+wm geometry .sigmgr 467x236+492+209
+wm geometry .sigmgr 467x236+584+220
+wm geometry .sigmgr 467x236+665+228
+wm geometry .sigmgr 467x236+804+243
+wm geometry .sigmgr 467x236+866+250
+wm geometry .sigmgr 467x236+986+253
+wm geometry .sigmgr 467x236+1128+259
+wm geometry .sigmgr 467x236+1238+259
+wm geometry .sigmgr 467x236+1325+259
+wm geometry .sigmgr 467x236+1343+259
+wm geometry .sigmgr 467x236+1348+259
+wm geometry .sigmgr 467x236+1350+259
+wm geometry .sigmgr 467x236+1354+259
+wm geometry .sigmgr 467x236+1359+259
+wm geometry .sigmgr 467x236+1364+259
+wm geometry .sigmgr 467x236+1369+259
+wm geometry .sigmgr 467x236+1383+259
+wm geometry .sigmgr 467x236+1397+256
+wm geometry .sigmgr 467x236+1413+248
+wm geometry .sigmgr 467x236+1425+241
+wm geometry .sigmgr 467x236+1433+233
+wm geometry .sigmgr 467x236+1437+232
+wm geometry .sigmgr 467x236+1438+230
+wm geometry .sigmgr 467x236+1437+230
+wm geometry .sigmgr 467x236+1433+227
+wm geometry .sigmgr 467x236+1425+222
+wm geometry .sigmgr 467x236+1413+214
+wm geometry .sigmgr 467x236+1398+206
+wm geometry .sigmgr 467x236+1382+202
+wm geometry .sigmgr 467x236+1378+200
+wm geometry .sigmgr 467x236+1355+200
+wm geometry .sigmgr 467x236+1343+200
+wm geometry .sigmgr 467x236+1336+200
+wm geometry .sigmgr 467x236+1335+200
+wm geometry .sigmgr 467x236+1332+199
+wm geometry .sigmgr 467x236+1315+188
+wm geometry .sigmgr 467x236+1284+172
+wm geometry .sigmgr 467x236+1261+161
+wm geometry .sigmgr 467x236+1259+161
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisY(0,0) -rang {10.445896751754p 366.08398659155u} -gridvis n -label (A) -scale log -unitscale auto
+Mdi:Move 236 14
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisY(0,0) -rang {1p 10.0m} -gridvis n -label {log Ids} -scale log -unitscale auto
+Graph axisconfig AxisX(0) -rang {-1.0 0.0} -gridvis n -label v(gs -scale lin -unitscale auto
+Graph axisconfig AxisX(0) -rang {-1.0 0.0} -gridvis n -label Vgs -scale lin -unitscale auto
+Graph axisconfig AxisX(0) -slider yes
+Graph axisconfig AxisX(0) -slider no
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+.frame1.mdi.mdi1.work.graph0 save -file {/home/class/chint078/tsmc16_chint078/simulation/pmos/1b(2) log Ids vs Vds.jpg} -format jpeg  -x 0 -y 0 -w 488 -h 368 -colormode color
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisY(0,0) -rang {10.445896751754p 366.08398659155u} -gridvis n -label {log Ids} -scale lin -unitscale auto
+Graph axisconfig AxisY(0,0) -rang {0.0 400u} -gridvis n -label Ids -scale lin -unitscale auto
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph itemselect Signal0 add
+# Signal0
+Graph itemselect Signal0 add
+# Signal0
+Graph delsignal selected
+Graph:DSel
+pf:read PF:1 v(g)
+# WF:1:1
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:1
+pf:read PF:1 i(m3)
+# WF:1:3
+Graph addsignal WF:1:3 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+Graph:Select Graph0
+Graph:DSel
+Graph axisconfig AxisY(0,0) -rang {-400u 0.0} -gridvis n -label Ids -scale lin -unitscale auto
+Graph axisconfig AxisX(0) -rang {-1.0 0.0} -gridvis n -label Vgs -scale lin -unitscale auto
+.frame1.mdi.mdi1.work.graph0 save -file {/home/class/chint078/tsmc16_chint078/simulation/pmos/1b(1) Ids vs Vds.jpg} -format jpeg  -x 0 -y 0 -w 488 -h 368 -colormode color
+Mdi:FullSize
+.frame1.mdi.mdi1.work.graph0 save -file {/home/class/chint078/tsmc16_chint078/simulation/pmos/1b(1) Ids vs Vds.jpg} -format jpeg  -x 0 -y 0 -w 888 -h 657 -colormode color
+wm geometry .sigmgr 467x236+1258+161
+wm geometry .sigmgr 467x236+1257+161
+wm geometry .sigmgr 467x236+1262+161
+wm geometry .sigmgr 467x236+1496+161
+wm geometry .sigmgr 467x236+1831+177
+wm geometry .sigmgr 467x236+1941+189
+wm geometry .sigmgr 467x236+1970+198
+wm geometry .sigmgr 467x236+2010+214
+wm geometry .sigmgr 467x236+2057+240
+wm geometry .sigmgr 467x236+2083+267
+wm geometry .sigmgr 467x236+2083+279
+wm geometry .sigmgr 467x236+2083+303
+wm geometry .sigmgr 467x236+2118+318
+wm geometry .sigmgr 467x236+2119+339
+wm geometry .sigmgr 467x236+2113+366
+wm geometry .sigmgr 467x236+2094+385
+wm geometry .sigmgr 467x236+2067+393
+wm geometry .sigmgr 467x236+2063+394
+wm geometry .sigmgr 467x236+2064+394
+ScopeSigMgr:Unload 0 {{(1) run_pmos.sw0 [2]}}

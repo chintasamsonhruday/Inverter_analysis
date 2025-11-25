@@ -1,0 +1,65 @@
+ScopeSigMgr:loadpffile /home/class/chint078/tsmc16_chint078/simulation/run_inverter1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1280+540
+pf:read PF:1 v(y)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:1 v(a)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+wm geometry .sigmgr 467x236+417+195
+wm geometry .sigmgr 467x236+486+195
+wm geometry .sigmgr 467x236+659+210
+wm geometry .sigmgr 467x236+865+241
+wm geometry .sigmgr 467x236+1044+255
+wm geometry .sigmgr 467x236+1144+259
+wm geometry .sigmgr 467x236+1161+259
+wm geometry .sigmgr 467x236+1168+259
+wm geometry .sigmgr 467x236+1179+259
+wm geometry .sigmgr 467x236+1193+259
+wm geometry .sigmgr 467x236+1201+259
+wm geometry .sigmgr 467x236+1208+259
+wm geometry .sigmgr 467x236+1211+259
+wm geometry .sigmgr 467x236+1208+259
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -rgnindex 1
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -xview real(x) -yview real(y) -fill yellow -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Graph sigconfig Signal1 -region 0 -xview real(x) -yview real(y) -fill #ff74bd -linestyle - -symbol {} -bar {} -stipple {} -symwidth 10 -bus none -tracehi 2 -barwidth 0 -width 1
+Mdi:FullSize
+GrMeas:Delay Graph0 Signal0 Signal1 either either default default default default 0.5 0.5 xyrangeAll
+# M:0
+Graph:DSel
+GrMeas:Select Graph0 M:0 6
+GrMeas:HideResult Graph0 M:0 6
+GrMeas:ShowResult Graph0 M:0 9
+GrMeas:Select Graph0 M:0 9 1
+GrMeas:Risetime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.89620658785648 -0.074596169863197} {45.796p 478.56p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.87634925872131 -0.072389799959289} {20.8631p 433.28p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.90944480727993 -0.14740637669217} {10.23p 440.622p}}
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisY(0,0) -rang {-0.25 1.0} -gridvis n -label Voltage -scale lin -unitscale auto
+Graph:DSel
+Graph:Select Graph0
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.95873884167492 -0.18397690439095} {10.8536p 443.562p}}
+Graph:DSel
+.frame1.mdi.mdi1.work.graph0 save -file {/home/class/chint078/tsmc16_chint078/simulation/2 b Vout and Vin and delay.png} -format png  -x 0 -y 0 -w 888 -h 657 -colormode color
+wm geometry .sigmgr 467x236+1218+267
+ScopeSigMgr:Unload 0 {{(1) run_inverter1.tr0}}
+Graph0 delsignal Signal1
+Graph0 delsignal Signal0

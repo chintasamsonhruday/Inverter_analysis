@@ -1,0 +1,243 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+1368+118
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile {{/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/run_nmos_inverter.sw0}} 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1280+540
+pf:read PF:1 v(vin)
+# WF:1:1
+ScopeSigMgr:SetPfXAxis PF:1 WF:1:1
+pf:read PF:1 v(vout)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+wm geometry .sigmgr 467x236+1793+238
+wm geometry .sigmgr 467x236+1877+261
+wm geometry .sigmgr 467x236+2144+328
+wm geometry .sigmgr 467x236+2249+345
+wm geometry .sigmgr 467x236+2245+351
+wm geometry .sigmgr 467x236+2218+353
+wm geometry .sigmgr 467x236+2179+358
+wm geometry .sigmgr 467x236+2123+362
+wm geometry .sigmgr 467x236+2092+370
+wm geometry .sigmgr 467x236+2072+372
+wm geometry .sigmgr 467x236+2067+375
+wm geometry .sigmgr 467x236+2063+376
+wm geometry .sigmgr 467x236+2061+377
+wm geometry .sigmgr 467x236+2055+381
+wm geometry .sigmgr 467x236+2053+383
+wm geometry .sigmgr 467x236+2050+385
+wm geometry .sigmgr 467x236+2046+387
+wm geometry .sigmgr 467x236+2043+390
+wm geometry .sigmgr 467x236+2042+391
+wm geometry .sigmgr 467x236+2037+396
+wm geometry .sigmgr 467x236+2036+400
+wm geometry .sigmgr 467x236+2032+406
+wm geometry .sigmgr 467x236+2028+411
+wm geometry .sigmgr 467x236+2026+417
+wm geometry .sigmgr 467x236+2022+421
+wm geometry .sigmgr 467x236+2018+427
+wm geometry .sigmgr 467x236+2015+430
+wm geometry .sigmgr 467x236+2012+434
+wm geometry .sigmgr 467x236+2009+438
+wm geometry .sigmgr 467x236+2007+440
+wm geometry .sigmgr 467x236+2004+445
+wm geometry .sigmgr 467x236+2003+447
+wm geometry .sigmgr 467x236+2002+448
+wm geometry .sigmgr 467x236+2002+449
+Mdi:FullSize
+GrMeas:Levels Graph0 Signal0 XatMaximum xyrangeAll
+# M:0
+Graph:DSel
+Graph:Select Graph0
+wm geometry .sigmgr 467x236+2012+457
+GrMeas:Levels Graph0 Signal0 XatMinimum xyrangeAll
+# M:1
+GrMeas:Threshold Graph0 Signal0 {} either xyrangeVisible
+# M:2
+Graph:DSel
+GrMeas:Select Graph0 M:2 1
+GrMeas:HideResult Graph0 M:2 1
+GrMeas:ShowResult Graph0 M:2 1
+GrMeas:Select Graph0 M:2 1 1
+Graph:DSel
+GrMeas:Select Graph0 M:2 0
+GrMeas:MoveYLevel Graph0 M:2 0 0.32502402923467
+# M:3
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.37264484639152 0.30700534175024} {0.64622 0.68582}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+GrMeas:Select Graph0 M:3 0
+GrMeas:MoveYLevel Graph0 M:3 0 0.1358278100778
+# M:4
+Graph:DSel
+GrMeas:Select Graph0 M:4 1
+GrMeas:HideResult Graph0 M:4 1
+GrMeas:ShowResult Graph0 M:4 1
+GrMeas:Select Graph0 M:4 1 1
+Graph:DSel
+Graph:DSel
+GrMeas:Select Graph0 M:4 0
+GrMeas:MoveYLevel Graph0 M:4 0 0.13711485918772
+# M:5
+Graph delsignal selected
+GrMeas:DelMfromMenu Graph0 M:5
+Graph:DSel
+GrMeas:Select Graph0 M:1 0 1
+GrMeas:DelMfromMenu Graph0 M:1
+GrMeas:Threshold Graph0 Signal0 {} either xyrangeVisible
+# M:6
+Graph:DSel
+GrMeas:Select Graph0 M:6 0
+GrMeas:MoveYLevel Graph0 M:6 0 0.45244189111583
+# M:7
+GrMeas:Levels Graph0 Signal0 XatMinimum xyrangeAll
+# M:8
+GrMeas:Levels Graph0 Signal0 {XatMinimum Minimum} xyrangeAll
+# M:8
+GrMeas:Levels Graph0 Signal0 {XatMinimum Minimum Maximum} xyrangeAll
+# M:8
+ScopeSigMgr:Unload 0 {{(1) run_nmos_inverter.sw0}}
+wm geometry .sigmgr._PF:1 290x358+1248+538
+wm geometry .sigmgr._PF:1 290x358+1197+553
+wm geometry .sigmgr._PF:1 290x358+1135+567
+wm geometry .sigmgr._PF:1 290x358+1067+586
+wm geometry .sigmgr._PF:1 290x358+968+608
+wm geometry .sigmgr._PF:1 290x358+962+608
+wm geometry .sigmgr._PF:1 290x358+957+608
+wm geometry .sigmgr._PF:1 290x358+955+607
+wm geometry .sigmgr._PF:1 290x358+952+605
+wm geometry .sigmgr._PF:1 290x358+938+586
+wm geometry .sigmgr._PF:1 290x358+914+555
+wm geometry .sigmgr._PF:1 290x358+891+527
+wm geometry .sigmgr._PF:1 290x358+886+524
+GrMeas:DelMfromMenu Graph0 M:7
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.331 0.562 } {0.297 0.594 }}
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.399 0.498 } {0.38225 0.4895 }}
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.4196 0.4592 } {0.4196 0.4592 }}
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.385 0.485 } {0.3925 0.4825 }}
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.3125 0.5625 } {0.34 0.54 }}
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.15 0.75 } {0.21 0.65 }}
+Graph axisconfig AxisY(0,0) -range {0.63262876673538 0.51422024855897}
+Graph axisconfig AxisY(0,0) -range {0.60034492382958 0.56476720912906}
+Graph axisconfig AxisY(0,0) -range {0.58802431526275 0.57487802791863}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+.frame1.mdi.mdi1.work.graph0 save -file {/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/3a vtc.jpg} -format jpeg  -x 0 -y 0 -w 888 -h 657 -colormode color
+Graph:DSel
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisX(0) -rang {0.0 0.9} -gridvis n -label {Vout } -scale lin -unitscale auto
+Graph axisconfig AxisX(0) -rang {0.0 0.9} -gridvis n -label Vin -scale lin -unitscale auto
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect AxisY(0,0) add
+# AxisY(0,0)
+Graph:DSel
+Graph axisconfig AxisY(0,0) -rang {0.1 0.8} -gridvis n -label Vout -scale lin -unitscale auto
+Graph axisconfig AxisY(0,0) -rang {0m 0.835 exact} -gridvis n -label Vout -scale lin -unitscale auto
+Graph:Select Graph0
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -fill #ff74bd
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -fill yellow
+Graph itemselect Signal0 add
+# Signal0
+Graph sigconfig Signal0 -fill green
+Graph:DSel
+.frame1.mdi.mdi1.work.graph0 save -file {/home/class/chint078/tsmc16_chint078/simulation/Nmos Inverter/3b vtc.jpg} -format jpeg  -x 0 -y 0 -w 888 -h 657 -colormode color
+Mdi:ArrangeIcons
+wm geometry . 900x785+1365+125
+Mdi:ArrangeIcons
+wm geometry . 900x785+1141+358
+Mdi:ArrangeIcons
+wm geometry . 900x785+1028+462
+Mdi:ArrangeIcons
+wm geometry . 900x785+881+636
+Mdi:ArrangeIcons
+wm geometry . 900x785+848+700
+Mdi:ArrangeIcons
+wm geometry . 900x785+847+709
+Mdi:ArrangeIcons
+wm geometry . 900x785+847+711
+Mdi:ArrangeIcons
+wm geometry . 900x785+920+675
+Mdi:ArrangeIcons
+wm geometry . 900x785+1234+480
+Mdi:ArrangeIcons
+wm geometry . 900x785+1342+402
+Mdi:ArrangeIcons
+wm geometry . 900x785+1428+315
+Mdi:ArrangeIcons
+wm geometry . 900x785+1433+295
+Mdi:ArrangeIcons
+wm geometry . 900x785+1433+293
+Mdi:ArrangeIcons
+wm geometry . 900x785+1435+289
+Mdi:ArrangeIcons
+wm geometry . 900x785+1435+287
+Mdi:ArrangeIcons
+wm geometry . 900x785+1436+283
+Mdi:ArrangeIcons
+wm geometry . 900x785+1438+277
+Mdi:ArrangeIcons
+wm geometry . 900x785+1442+271
+Mdi:ArrangeIcons
+wm geometry . 900x785+1446+263
+Mdi:ArrangeIcons
+wm geometry . 900x785+1450+257
+Mdi:ArrangeIcons
+wm geometry . 900x785+1452+254
+Mdi:ArrangeIcons
+wm geometry . 900x785+1452+253
+Mdi:ArrangeIcons
+wm geometry . 900x785+1453+244
+Mdi:ArrangeIcons
+wm geometry . 900x785+1451+231
+Mdi:ArrangeIcons
+wm geometry . 900x785+1449+212
+Mdi:ArrangeIcons
+wm geometry . 900x785+1447+190
+Mdi:ArrangeIcons
+wm geometry . 900x785+1447+167
+Mdi:ArrangeIcons
+wm geometry . 900x785+1443+158

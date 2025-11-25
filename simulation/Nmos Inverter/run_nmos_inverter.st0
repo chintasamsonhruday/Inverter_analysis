@@ -1,0 +1,85 @@
+****** HSPICE -- R-2020.12-3 linux64 (Mar 07 2021 6917263) ******
+Input File: run_nmos_inverter.sp
+lic:
+lic: FLEXlm: SDK_12.9
+lic: USER:   chint078             HOSTNAME: ece-chur
+lic: HOSTID: 089204dbf66b         PID:      130762
+lic: Using FLEXlm license file:
+lic: 27020@synopsys.ece.umn.edu
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 19-dec-2024/2023.03
+lic: 2(in_use)/50(total) FLOATING license(s) on SERVER 27020@synopsys.ece.umn.edu
+lic:
+
+ init: begin read circuit files, cpu clock= 5.11E-01
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/ad
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/behave
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/bjt
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/burr_brn
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/comlinear
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/dio
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/fet
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/lin_tech
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/pci
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/signet
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/ti
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/tline
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/xilinx
+       option post
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmipath = /home/vlsilab2/TSMCHOME/Executable_Package/Colla
+                         terals/Tech/SPICE/N16ADFP_SPICE_MODEL/n16adfp_sp
+                         ice_model_v1d0_dir
+       option etmiusrinput = /home/vlsilab2/TSMCHOME/Executable_Package/Colla
+                         terals/Tech/SPICE/N16ADFP_SPICE_MODEL/n16adfp_sp
+                         ice_model_v1d0_dir
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+ init: end read circuit files, cpu clock= 5.20E-01 peak memory=     480 mb
+ init: begin check errors, cpu clock= 5.20E-01
+ init: end check errors, cpu clock= 5.87E-01 peak memory=     483 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 5.87E-01
+       establish matrix -- done, cpu clock= 5.87E-01 peak memory=     483 mb
+       re-order matrix -- done, cpu clock= 5.87E-01 peak memory=     483 mb
+ init: end setup matrix, cpu clock= 5.87E-01 peak memory=     483 mb
+ output: run_nmos_inverter.sw0
+ sweep: dc dc0    begin, #sweeps= 801 cpu clock= 5.92E-01
+ sweep: dc dc0    end, cpu clock= 6.49E-01 peak memory=     483 mb
+ dcop: begin dcop, cpu clock= 7.28E-01
+ dcop: end dcop, cpu clock= 7.35E-01 peak memory=     483 mb tot_iter=      16
+ output: run_nmos_inverter.tr0
+ sweep: tran tran0    begin, stop_t=  1.00E-09 #sweeps=**** cpu clock= 7.36E-01
+ tran: time= 1.0074E-10 tot_iter=      42 conv_iter=      17 cpu clock= 7.37E-01
+ tran: time= 2.0282E-10 tot_iter=      90 conv_iter=      34 cpu clock= 7.38E-01
+ tran: time= 3.0000E-10 tot_iter=     130 conv_iter=      47 cpu clock= 7.39E-01
+ tran: time= 4.0423E-10 tot_iter=     147 conv_iter=      55 cpu clock= 7.39E-01
+ tran: time= 5.2060E-10 tot_iter=     205 conv_iter=      76 cpu clock= 7.41E-01
+ tran: time= 6.0996E-10 tot_iter=     259 conv_iter=      95 cpu clock= 7.42E-01
+ tran: time= 7.0000E-10 tot_iter=     263 conv_iter=      97 cpu clock= 7.42E-01
+ tran: time= 8.2421E-10 tot_iter=     316 conv_iter=     116 cpu clock= 7.44E-01
+ tran: time= 9.4275E-10 tot_iter=     368 conv_iter=     134 cpu clock= 7.45E-01
+ tran: time= 1.0000E-09 tot_iter=     393 conv_iter=     142 cpu clock= 7.46E-01
+ sweep: tran tran0    end, cpu clock= 7.46E-01 peak memory=     483 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

@@ -1,0 +1,140 @@
+Mdi:ArrangeIcons
+wm geometry . 900x785+244+87
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/class/chint078/tsmc16_chint078/simulation/run_inverter1.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 290x358+1280+540
+pf:read PF:1 v(y)
+# WF:1:1
+Graph addsignal WF:1:1 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal0
+pf:read PF:1 v(a)
+# WF:1:2
+Graph addsignal WF:1:2 -region new -yview real(y) -xview real(x) -tracehi 2
+# Signal1
+wm geometry .sigmgr 467x236+694+210
+wm geometry .sigmgr 467x236+767+220
+wm geometry .sigmgr 467x236+1052+237
+wm geometry .sigmgr 467x236+1321+237
+wm geometry .sigmgr 467x236+1369+225
+wm geometry .sigmgr 467x236+1370+224
+wm geometry .sigmgr 467x236+1371+223
+wm geometry .sigmgr 467x236+1372+221
+wm geometry .sigmgr 467x236+1372+218
+wm geometry .sigmgr 467x236+1372+213
+wm geometry .sigmgr 467x236+1372+209
+wm geometry .sigmgr 467x236+1390+206
+wm geometry .sigmgr 467x236+1393+204
+wm geometry .sigmgr 467x236+1394+203
+Mdi:Move 216 21
+Graph:Select Graph0
+Graph:DSel
+Graph itemselect Signal1 add
+# Signal1
+Graph sigconfig Signal1 -region 0 -rgnindex 1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.89381690874745 -0.13019523438873} {304.81p 657.8p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.90558716326626 0.67606720014953} {333.05192465p 363.30835017p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+GrMeas:Delay Graph0 Signal0 Signal1 either either default default default default 0.5 0.5 xyrangeAll
+# M:0
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.92912767230387 -0.13608036164813} {17.077p -48.182p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+GrMeas:Select Graph0 M:0 6
+GrMeas:HideResult Graph0 M:0 6
+GrMeas:ShowResult Graph0 M:0 9
+GrMeas:Select Graph0 M:0 9 1
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.58779029125848 0.19937189213786} {245.48p 402.7p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.49396738909743 0.26797850233634} {260.65502223p 413.86793443p}}
+Graph axisconfig {AxisX(0) AxisY(0,0)} -range {all all} -zoomed {0 0}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.91147229052566 -0.16550599794515} {171.33p 482.79p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.88204665422865 -0.2478977795768} {204.24p 389.34p}}
+Graph:DSel
+Graph axisconfig {AxisY(0,0) AxisX(0)} -range {{0.94678305408208 -0.10076959809171} {274.013803824p 368.935923102p}}
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph:DSel
+Graph itemselect Signal0 add
+# Signal0
+GrMeas:P2P Graph0 Signal0 Signal0 1 {{} {} {} {}} xyrangeVisible {X1,Y1 X2,Y2 DeltaX DeltaY Length Slope}
+# M:1
+Graph:DSel
+GrMeas:Select Graph0 M:1 0 1
+GrMeas:MoveDiffAnc2 Graph0 M:1 0 373.69408927178p 0.79975692785745
+GrMeas:MoveDiffAnc1 Graph0 M:1 0 318.83117934256p 0.120635919073
+GrMeas:MoveDiffAnc1 Graph0 M:1 0 317.02373781926p 0.075567656535645
+GrMeas:MoveDiffAnc2 Graph0 M:1 0 355.55116521808p 0.79228678014458
+GrMeas:Risetime Graph0 Signal0 {0.1 0.5 0.9} default default xyrangeAll
+# M:2
+Mdi:ArrangeIcons
+wm geometry . 900x785+256+87
+Mdi:ArrangeIcons
+wm geometry . 900x785+364+95
+Mdi:ArrangeIcons
+wm geometry . 900x785+524+109
+Mdi:ArrangeIcons
+wm geometry . 900x785+710+122
+Mdi:ArrangeIcons
+wm geometry . 900x785+749+122
+Mdi:ArrangeIcons
+wm geometry . 900x785+776+120
+Mdi:ArrangeIcons
+wm geometry . 900x785+849+118
+Mdi:ArrangeIcons
+wm geometry . 900x785+916+118
+Mdi:ArrangeIcons
+wm geometry . 900x785+979+112
+Mdi:ArrangeIcons
+wm geometry . 900x785+1041+105
+Mdi:ArrangeIcons
+wm geometry . 900x785+1093+98
+Mdi:ArrangeIcons
+wm geometry . 900x785+1147+91
+Mdi:ArrangeIcons
+wm geometry . 900x785+1193+88
+Mdi:ArrangeIcons
+wm geometry . 900x785+1219+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+1221+85
+Mdi:ArrangeIcons
+wm geometry . 900x785+1215+84
+Mdi:ArrangeIcons
+wm geometry . 900x785+1152+84
+Mdi:ArrangeIcons
+wm geometry . 900x785+1034+79
+Mdi:ArrangeIcons
+wm geometry . 900x785+803+79
+Mdi:ArrangeIcons
+wm geometry . 900x785+660+79
+Mdi:ArrangeIcons
+wm geometry . 900x785+531+79
+Mdi:ArrangeIcons
+wm geometry . 900x785+467+79
+Mdi:ArrangeIcons
+wm geometry . 900x785+453+79

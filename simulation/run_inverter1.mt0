@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='R-2020.12-3 linux64' PARAM_COUNT=0
+.TITLE '** run inverter file'
+ thl              temper           alter#          
+  1.836e-11         25.0000        1               

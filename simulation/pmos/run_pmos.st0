@@ -1,0 +1,95 @@
+****** HSPICE -- R-2020.12-3 linux64 (Mar 07 2021 6917263) ******
+Input File: run_pmos.sp
+lic:
+lic: FLEXlm: SDK_12.9
+lic: USER:   chint078             HOSTNAME: ece-stgallen
+lic: HOSTID: 089204dbf64f         PID:      254303
+lic: Using FLEXlm license file:
+lic: 27020@synopsys.ece.umn.edu
+lic: Checkout 1 hspice
+lic: License/Maintenance for hspice will expire on 19-dec-2024/2023.03
+lic: 2(in_use)/50(total) FLOATING license(s) on SERVER 27020@synopsys.ece.umn.edu
+lic:
+
+ init: begin read circuit files, cpu clock= 5.63E-01
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/ad
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/behave
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/bjt
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/burr_brn
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/comlinear
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/dio
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/fet
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/lin_tech
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/pci
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/signet
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/ti
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/tline
+       option search = /home/apps/common/hspice/2020.12/hspice/R-2020.12-3/hspice/parts/xilinx
+       option post
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmipath = /home/vlsilab2/TSMCHOME/Executable_Package/Colla
+                         terals/Tech/SPICE/N16ADFP_SPICE_MODEL/n16adfp_sp
+                         ice_model_v1d0_dir
+       option etmiusrinput = /home/vlsilab2/TSMCHOME/Executable_Package/Colla
+                         terals/Tech/SPICE/N16ADFP_SPICE_MODEL/n16adfp_sp
+                         ice_model_v1d0_dir
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+       option tmiflag =     2.01
+       option modmonte =     1.00
+ init: end read circuit files, cpu clock= 5.72E-01 peak memory=     480 mb
+ init: begin check errors, cpu clock= 5.72E-01
+ init: end check errors, cpu clock= 6.49E-01 peak memory=     483 mb
+ init: begin setup matrix, pivot=     0 cpu clock= 6.49E-01
+       establish matrix -- done, cpu clock= 6.49E-01 peak memory=     483 mb
+       re-order matrix -- done, cpu clock= 6.49E-01 peak memory=     483 mb
+ init: end setup matrix, cpu clock= 6.49E-01 peak memory=     483 mb
+ sweep: voltage         voltage1         begin, #sweeps =   6
+ voltage: v1              =   -8.00E-01
+ output: run_pmos.sw0
+ sweep: dc dc1    begin, #sweeps=  81 cpu clock= 6.52E-01
+ sweep: dc dc1    end, cpu clock= 6.56E-01 peak memory=     483 mb
+ voltage: v1              =   -6.50E-01
+ output: run_pmos.sw0
+ sweep: dc dc2    begin, #sweeps=  81 cpu clock= 6.56E-01
+ sweep: dc dc2    end, cpu clock= 6.61E-01 peak memory=     483 mb
+ voltage: v1              =   -5.00E-01
+ output: run_pmos.sw0
+ sweep: dc dc3    begin, #sweeps=  81 cpu clock= 6.61E-01
+ sweep: dc dc3    end, cpu clock= 6.65E-01 peak memory=     483 mb
+ voltage: v1              =   -3.50E-01
+ output: run_pmos.sw0
+ sweep: dc dc4    begin, #sweeps=  81 cpu clock= 6.65E-01
+ sweep: dc dc4    end, cpu clock= 6.69E-01 peak memory=     483 mb
+ voltage: v1              =   -2.00E-01
+ output: run_pmos.sw0
+ sweep: dc dc5    begin, #sweeps=  81 cpu clock= 6.69E-01
+ sweep: dc dc5    end, cpu clock= 6.74E-01 peak memory=     483 mb
+ voltage: v1              =   -5.00E-02
+ output: run_pmos.sw0
+ sweep: dc dc6    begin, #sweeps=  81 cpu clock= 6.74E-01
+ sweep: dc dc6    end, cpu clock= 6.78E-01 peak memory=     483 mb
+ sweep: voltage         voltage         1 end
+ dcop: begin dcop, cpu clock= 6.81E-01
+ dcop: end dcop, cpu clock= 6.86E-01 peak memory=     483 mb tot_iter=       2
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
